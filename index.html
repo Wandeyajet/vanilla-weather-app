@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vanilla-weather-app</title>
-    <link rel="stylesheet" href="src/styles.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
     <div class ="container">
@@ -22,12 +22,20 @@
         Clear
     </li>
 </ul>
+
 <div class="row">
     <div class="col-6">
-        <img src="https://th.bing.com/th/id/R.8d1e1f9c6cadb85626fb4c40ead5d302?rik=uCuUgU5MHF51Tg&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-sunnaturehotcartoonsummerspringsun-961524676790yt5p9.png&ehk=1Dt4DGnd5m%2fe29rCy2s9PpW29NalO%2fEnM7kDASg9IRg%3d&risl=&pid=ImgRaw&r=0"
-      width="100"  alt="Clear"/>
-12 °C /°F
-    </div>
+           <div class="clearfix">
+         <img src="https://th.bing.com/th/id/R.8d1e1f9c6cadb85626fb4c40ead5d302?rik=uCuUgU5MHF51Tg&riu=http%3a%2f%2fpurepng.com%2fpublic%2fuploads%2flarge%2fpurepng.com-sunnaturehotcartoonsummerspringsun-961524676790yt5p9.png&ehk=1Dt4DGnd5m%2fe29rCy2s9PpW29NalO%2fEnM7kDASg9IRg%3d&risl=&pid=ImgRaw&r=0"
+      width="100"  
+      alt="Clear"
+      class="float-left"
+     />
+     <div class="float-left">
+<span class="degree"> 12 </span> <small  class=" units">°C |<a href ="a">°F</a></small>
+     </div>
+     </div>
+</div>
     <div class="col-6">
       <ul>
     <li>
@@ -46,7 +54,8 @@ Precipitation: 0%
 <small>
     <a href= "https://github.com/Wandeyajet/vanilla-weather-app" target="_blank"> Open-source code </a> by Yewande Ajetunmobi
 </small>
+        </div>
 </div>
-   <script src="src/app.js"></script>
+<script src="app.js"> </script>
 </body>
 </html>

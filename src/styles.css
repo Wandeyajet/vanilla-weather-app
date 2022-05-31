@@ -1,2 +1,60 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1{
+    color: #e4790f;
+    font-family: Geneva;
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 28px;
+    margin: 2px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+
+ul{
+    padding: 0;
+    margin: 0;
+}
+li{
+    list-style-type: none;
+    color: #ef5a5a;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    text-align: left;
+ 
+    margin: 0;
+    padding: 0;
+}
 
 
+
+.weather-app{
+     max-width: 600px;
+    padding: 20px;
+    margin: 30px auto;
+    border: 2px solid  #ef5a5a;
+    border-radius: 10px;
+    background: #f8e4a4; 
+}
+.degree{
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Calibri;
+}
+  .units{
+      position: relative;
+      top: -24px
+  }
+
+
+
+.first-color { 
+	background: #feffdf; 
+	background: #ffe79a; 
+	background: #ffa952; 
+	background: #ef5a5a; 
+}
