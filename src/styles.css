@@ -25,11 +25,13 @@ li{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 100;
     text-align: left;
-text-transform: capitalize;
+
     margin: 0;
     padding: 0;
 }
-
+li::first-letter{
+    text-transform: capitalize;
+}
 
 
 .weather-app{
