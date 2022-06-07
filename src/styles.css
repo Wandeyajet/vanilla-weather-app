@@ -1,9 +1,15 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-image: url("https://images.rawpixel.com/image_300/czNmcy1wcml2YXRlL3Jhd3BpeGVsX2ltYWdlcy93ZWJzaXRlX2NvbnRlbnQvdjExNDctYmctMDUta3pud3V6dnYuanBn.jpg");
 }
 
 h1{
-    color: #e4790f;
+    color:  #eb1e1e;
     font-family: Geneva, Calibri,  Tahoma, sans-serif;
     font-size: 64px;
     font-weight: 600;
@@ -20,7 +26,7 @@ ul{
 }
 li{
     list-style-type: none;
-    color: #ef5a5a;
+    color: #b60d0d;
     font-size: 18px;
     font-family:  Geneva, Calibri,  Tahoma, sans-serif;
     font-weight: bold;
@@ -56,11 +62,11 @@ li:first-letter{
     font-family:  Geneva, Calibri,  Tahoma, sans-serif;
     margin-top: 20px;
     text-align: center;
-    color:#ee7905; 
+    color:#051cee; 
 }
 .weather-forecast-date{
     font-size: 16px;
-    color:#ee7905; 
+    color:#051cee; 
 
    
 }
@@ -71,9 +77,4 @@ font-size: 13px;
 .weather-forecast-temperature-min{
 opacity: 0.6;
 }
-.first-color { 
-	background: #feffdf; 
-	background: #ffe79a; 
-	background: #ffa952; 
-	background: #ef5a5a; 
-}
+
